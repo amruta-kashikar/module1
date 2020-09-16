@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module 1</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- container -->
+    <div class="container">
+        <!-- col -->
+        <div class="row">
+            <div class="col contain_text">
+                <h1>Welcome <span id="name"></span></h1>
+                <p class="content" id="original_text">
+                    <span id="name"></span><b>Are you tired of viewing the same text again and again, well now you have the power where you can just type anything you like in the textbox given below and it will appear here
+                    <br><i>So what are you waiting for just start typing : </i> <span style='font-size:20px;'>👇👇</span></br></b>
+                </p>
+            </div>
+        </div>
+    </div>
+    <!--buttons color-->
+    <div class="container">
+        <div class="row">
+            <div class="col contain_line">
+                <h1 class="heading"><i>Want to change the colour of the box so click on the buttons given below and see the transormation: </i></h1>
+                <button type="button" id="blue_button" class="btn btn-outline-primary btn-lg" style="margin: 5px;">Blue</button>
+                <button type="button" id="red_button" class="btn btn-outline-danger btn-lg" style="margin: 5px;">Red</button>
+                <button type="button" id="yellow_button" class="btn btn-outline-warning btn-lg" style="margin: 5px;">Yellow</button>
+                <button type="button" id="green_button" class="btn btn-outline-success btn-lg" style="margin: 5px;">Green</button>
+                <button type="button" id="lightblue_button" class="btn btn-outline-info btn-lg" style="margin: 5px;" >Light Blue</button>
+                <button type="button" id="black_button" class="btn btn-outline-dark btn-lg" style="margin: 5px;">Black</button>
+                <button type="button" id="grey_button" class="btn btn-outline-secondary btn-lg" style="margin: 5px; align: center;">Grey</button>
+
+            </div>
+        </div>
+    </div>
+    <div class="container textarea_container">
+        <div class="row">
+            <div class="col">
+              <h5 style="color: white;">Please write the text that you want to see in the above box:</h5>
+              <div class="text">
+                <textarea  class="col" rows="10" cols="120" id="text_area_text" placeholder="Enter your text here...."></textarea>
+              </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

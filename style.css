@@ -1,0 +1,131 @@
+.contain_text {
+    height: 400px;
+    background-color: purple;
+    margin: top-bottom LR;
+    margin: 50px 20px;
+    padding: 25px;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(82, 75, 75, 0.425);
+    overflow-wrap: break-word;
+    overflow: auto;
+}
+
+.contain_text h1 {
+    font-size: 120 px;
+    text-align: center;
+    opacity: 50%;
+    transition: all 0.5s;
+    font-style: bold;
+    
+}
+.contain_text h1:hover{
+    opacity: 100%;
+}
+.content {
+    font-size: 20px;
+    margin: 20px 0px;
+    opacity: 90%;
+    text-align: justify;
+    font-family: "Dancing Script", cursive;
+    color: white;
+}
+.heading {
+    font-size: 20 px;
+}
+.contain_line h1 {
+    font-size : 25px;
+    font-family: "Verdana", "Geneva", sans-serif;
+}
+.btn-outline-primary {
+    border-radius: 15px;
+    
+}
+.btn-outline-primary:hover {
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px rgb(82, 82, 233);
+}
+.btn-outline-danger {
+    border-radius: 15px;
+    
+}
+.btn-outline-danger:hover {
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px rgba(241, 62, 62, 0.973);
+}
+.btn-outline-warning {
+    border-radius: 15px;
+    
+}
+.btn-outline-warning:hover {
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px rgba(247, 195, 24, 0.877);
+}
+.btn-outline-success {
+    border-radius: 15px;
+    
+}
+.btn-outline-success:hover {
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px rgb(4, 161, 4);
+}
+
+.btn-outline-info {
+    border-radius: 15px;
+}
+.btn-outline-info:hover {
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px rgb(173,221,230);
+}
+.btn-outline-dark {
+    border-radius: 15px;
+    
+}
+.btn-outline-dark:hover {
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px rgb(0, 0, 0);   
+}
+.btn-outline-secondary {
+    border-radius: 15px;
+    
+}
+.btn-outline-secondary:hover {
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px rgb(128,128,128);
+    
+    
+}
+
+#text_area_text {
+    border: 2px dashed blue;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 10px 10px 10px rgba(82, 75, 75, 0.425);
+}
+#text_area_text: focus {
+    outline: 0px;
+    
+}
+.textarea_container {
+    margin-top: 20px;
+    
+}
+
+.col h5{
+    text-align: center;
+    font-size: 25px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 30s;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    
+    
+}
+@keyframes example {
+  0%   {background-color: red;}
+  20%  {background-color: maroon;}
+  40%  {background-color: blue;}
+  60% {background-color: green;}
+  80% {background-color: orange;}
+  100% {background-color: lightcoral;}
+}
